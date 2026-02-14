@@ -20,7 +20,7 @@ noBtn.addEventListener('click', () => {
         // State 1: Think again
         mainImg.src = thinkAgainImg;
         mainHeading.innerHTML = "Please think again! 🙄";
-        subtext.innerHTML = "Anshu, itni jaldi na matt bolo 😪";
+        subtext.innerHTML = "Sumu, itni jaldi na matt bolo 😪";
         
         // Reset button position if needed
         noBtn.style.position = 'static';
@@ -29,7 +29,7 @@ noBtn.addEventListener('click', () => {
         // State 2: Soch lo (new state)
         mainImg.src = pleadingSoulImg; 
         mainHeading.innerHTML = "Ek aur baar Soch lo! 😣"; 
-        subtext.innerHTML = "Anshu kyu aisa kar rahi ho Pls Maan jao🥺";
+        subtext.innerHTML = "Sumu kyu aisa kar rahi ho Pls Maan jao🥺";
         
         // Reset button position
         noBtn.style.position = 'static';
@@ -37,7 +37,7 @@ noBtn.addEventListener('click', () => {
     } else if (noClickCount === 3) {
         // State 3: Comforting (new state)
         mainImg.src = comfortingCatsImg;
-        mainHeading.innerHTML = "Anshu pls Man jao na! Kitna code likh waogi 😭";
+        mainHeading.innerHTML = "Sumu pls Man jao na! Kitna code likh waogi 😭";
         subtext.innerHTML = "bhut glt baat hai yrr 😭";
         
         // Reset button position
@@ -80,7 +80,7 @@ const loveCatsImg = "stickers/love_cats.png";
 // "Yes" button click
 yesBtn.addEventListener('click', () => {
     mainImg.src = loveCatsImg;
-    mainHeading.innerHTML = "I knew it! Anshu Loves me a lot 😘";
+    mainHeading.innerHTML = "I knew it! Sumu Loves me a lot 😘";
     subtext.innerHTML = ""; // Clear subtext or set to something else if desired
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
