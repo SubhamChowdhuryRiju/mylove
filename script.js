@@ -20,7 +20,7 @@ noBtn.addEventListener('click', () => {
         // State 1: Think again
         mainImg.src = thinkAgainImg;
         mainHeading.innerHTML = "Please think again! 🙄";
-        subtext.innerHTML = "unknown, itni jaldi na matt bolo 😪";
+        subtext.innerHTML = "Baby, itni jaldi na matt bolo 😪";
         
         // Reset button position if needed
         noBtn.style.position = 'static';
@@ -29,7 +29,7 @@ noBtn.addEventListener('click', () => {
         // State 2: Soch lo (new state)
         mainImg.src = pleadingSoulImg; 
         mainHeading.innerHTML = "Ek aur baar Soch lo! 😣"; 
-        subtext.innerHTML = "unknown kyu aisa kar rahi ho Pls Maan jao🥺";
+        subtext.innerHTML = "Baby kyu aisa kar rahi ho Pls Maan jao🥺";
         
         // Reset button position
         noBtn.style.position = 'static';
@@ -37,7 +37,7 @@ noBtn.addEventListener('click', () => {
     } else if (noClickCount === 3) {
         // State 3: Comforting (new state)
         mainImg.src = comfortingCatsImg;
-        mainHeading.innerHTML = "unknown pls Man jao na! Kitna code likh waogi 😭";
+        mainHeading.innerHTML = "Baby pls Man jao na! Kitna code likh waogi 😭";
         subtext.innerHTML = "bhut glt baat hai yrr 😭";
         
         // Reset button position
