@@ -80,7 +80,7 @@ const loveCatsImg = "stickers/love_cats.png";
 // "Yes" button click
 yesBtn.addEventListener('click', () => {
     mainImg.src = loveCatsImg;
-    mainHeading.innerHTML = "I knew it! unknown Loves me a lot 😘";
+    mainHeading.innerHTML = "I knew it! Baby Loves me a lot 😘";
     subtext.innerHTML = ""; // Clear subtext or set to something else if desired
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
